@@ -101,7 +101,10 @@ java_defaults {
         "librenderscript-toolkit",
     ],
 
-    required: ["android.software.theme_picker.xml"],
+    required: [
+        "android.software.theme_picker.xml",
+        "CustomColorStub",
+    ],
 
     use_embedded_native_libs: true,
 
@@ -113,6 +116,16 @@ java_defaults {
 
     privileged: true,
     system_ext_specific: true,
+}
+
+android_app {
+    name: "CustomColorStub",
+    manifest: "AndroidManifest-Stub.xml",
+    resource_dirs: ["res-stub"],
+
+    certificate: "platform",
+    product_specific: true,
+    sdk_version: "current",
 }
 
 prebuilt_etc {
