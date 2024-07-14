@@ -15,8 +15,8 @@
   ~ limitations under the License.
   -->
 <resources>
-    <string name="default_color_name">Klasik</string>
+    <string name="default_color_name">Klasszikus</string>
     <string name="bundle1_color_name">Karbon</string>
-    <string name="bundle2_color_name">Kertas</string>
-    <string name="bundle3_color_name">Matahari</string>
+    <string name="bundle2_color_name">Papír</string>
+    <string name="bundle3_color_name">Napos</string>
 </resources>

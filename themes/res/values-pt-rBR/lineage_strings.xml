@@ -18,4 +18,5 @@
     <string name="default_color_name">Clássico</string>
     <string name="bundle1_color_name">Carbono</string>
     <string name="bundle2_color_name">Papel</string>
+    <string name="bundle3_color_name">Sol</string>
 </resources>
