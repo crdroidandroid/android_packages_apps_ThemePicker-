@@ -176,8 +176,6 @@ public class ColorCustomizationManager implements CustomizationManager<ColorOpti
                 if (allApplied) {
                     callback.onSuccess();
                 } else {
-                    Settings.Secure.putString(
-                        mContentResolver, ResourceConstants.THEME_SETTING, "");
                     callback.onError(null);
                 }
             });
